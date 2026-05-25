@@ -18,10 +18,12 @@ function App() {
         <Navbar />
       </div>
       <div className="part2">
-        <Part2/>
+        <Part2 />
       </div>
 
       <Routes>
+        <Route path="/" element={<Players />} />
+
         <Route path="/players" element={<Players />} />
         <Route path="/standings" element={<Standings />} />
         <Route path="/fixtures" element={<Fixtures />} />
