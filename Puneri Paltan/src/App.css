@@ -1,0 +1,43 @@
+*{
+    font-family:Montserrat;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+    /* color:black; */
+}
+nav{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;  
+    padding:0px 0px;
+    margin:16px 0px;
+    scale:0.8;
+    transform:skew(-15deg);
+    font-size:20px;
+    background-color:rgba(0, 0, 0, 0.5);
+    width:100%;
+    a{color:white;}
+    font-weight:500;
+    
+}
+.logo{
+    scale:1.2;
+    transform:skew(15deg);
+
+}
+.navv{
+    display:flex;
+    justify-content:space-around;
+    align-items:center; 
+    width:40%;
+}
+/* body{
+    /* background-image:url(../public/homepage-mobile-banner-s12.webp); */
+    /* background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat; */
+    
+/* } */
