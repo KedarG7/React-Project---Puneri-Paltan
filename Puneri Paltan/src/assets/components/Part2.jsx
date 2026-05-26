@@ -3,33 +3,44 @@ import { useEffect, useState } from 'react'
 
 const Part2 = () => {
 
-  const [players, setPlayers] = useState([])
+  // const [players, setPlayers] = useState([])
 
-  useEffect(() => {
-    const fetchPlayers = async () => {
-      try {
-        const response = await axios.get(
-          `https://appy.trycatchtech.com/v3/puneri_paltan/category_list`,
-        )
-        setPlayers(response.data)
-      } catch (error) {
-        console.log('error', error)
-      }
-    }
+  // useEffect(() => {
+  //   const fetchPlayers = async () => {
+  //     try {
+  //       const response = await axios.get(
+  //         `https://appy.trycatchtech.com/v3/puneri_paltan/category_list`,
+  //       )
+  //       setPlayers(response.data)
+  //     } catch (error) {
+  //       console.log('error', error)
+  //     }
+  //   }
 
-    fetchPlayers()
-  }, [])
+  //   fetchPlayers()
+  // }, [])
 
 
   
   return (
     <>
-    <p className="scroll">SCROLL</p>
-      
-    {/* <button onClick={}>Click</button> */}
+      <div className="scrollcontainer">
+        <p className="scroll">SCROLL</p>
+        <div className="line"></div>
+      </div>
 
+      <div className="teamdescription">
+        <p>
+          Puneri Paltan is currently one of the top performing teams in the Pro
+          Kabaddi League. With a mix of unstoppable energy, honed-out skills and
+          steely nerves, here's a force that consistently looks forward to
+          perform better, challenge its opponents and make a difference.
+        </p>
+      </div>
+
+      {/* <button onClick={}>Click</button> */}
     </>
-  )
+  );
 }
 
 export default Part2

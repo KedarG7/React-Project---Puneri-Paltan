@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
       <nav>
         <span>
-          <Link to="/players">
+          <Link to="/">
             <img src="./logo.gif" className="logo" />
           </Link>
         </span>
