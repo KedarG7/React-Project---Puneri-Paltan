@@ -123,6 +123,80 @@ nav{
         font-size:56px;
     }
 }
+.playercarousel{
+    width:100%;
+    height:65vh;
+    background-color:transparent;
+    display:flex;   
+}
+.carouseltitle{
+    width:40%;
+    color:#ff7500;
+    display:flex;
+    justify-content: center ;
+    align-items:center;
+    font-size:84px;
+    font-weight:600;
+}
+.players{
+    width:60%;
+    background-color: #ff7500;
+}
+.fixtures{
+    width:100%;
+    height:80vh;
+    background-image:url(../public/fixtures-bg.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.container1{
+    width:60%;
+    height:80%;
+    background-color:#2b2521;
+    transform:skew(-20deg);
+    display:flex;
+    position:relative;
+}
+.subcontain1{
+    width:50%;
+    height:100%;
+    background-color:#2b2521;  
+    display:flex;
+}
+.buyticket{
+    width:100%;
+    height:100%;
+    background-image:url(../public/buy-tickets-homepage_s12.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    transform:skew(20deg);
+}
+.buyticketbtn{
+    width:172px;
+    height:42px;
+    background-color:#ff7500;
+    position:absolute;
+    right:48%;
+    top:45%;
+    color:white;
+    font-size:20px;
+    letter-spacing:2px;
+    border-top:white 2px solid;
+    border-bottom:white 2px solid;
+    border-right:white 2px solid;
+    border-left:transparent;
+}
+.subcontain2{
+    width:50%;
+    height:100%;
+    
+}
 /* -------------------------------------------------- */
 
 

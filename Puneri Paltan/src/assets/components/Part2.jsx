@@ -38,6 +38,22 @@ const Part2 = () => {
         </p>
       </div>
 
+      <div className="playercarousel">
+        <div className="carouseltitle">
+          <p>PLAYERS</p>
+        </div>
+        <div className="players"></div>
+      </div>
+      <div className="fixtures">
+        <div className="container1">
+          <div className="subcontain1">
+            <div className="buyticket"></div>
+          </div>
+          <button className='buyticketbtn'>Buy Tickets</button>
+          <div className="subcontain2"></div>
+        </div>
+      </div>
+
       {/* <button onClick={}>Click</button> */}
     </>
   );
