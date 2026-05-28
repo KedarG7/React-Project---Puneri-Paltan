@@ -359,7 +359,29 @@ nav{
 .partners{
     width:100%;
     height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:32px;
 }
+#partnerstext{
+    font-size:72px;
+    color:#ff7500;
+    font-weight:700;
+}
+.principalpartner{
+    width:fit-content;
+    height:fit-content;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+} 
+.associatepartners{
+    width:fit-content;
+    display:flex;
+}  
+
 
 
 
