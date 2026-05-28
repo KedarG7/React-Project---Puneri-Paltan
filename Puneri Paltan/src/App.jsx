@@ -16,22 +16,12 @@ function App() {
 
   return (
     <>
-      <div className="bodyy">
-        <Navbar />
-      </div>
-      <div className="part2">
-        <Part2 />
-      </div>
-      <div className="paltanworld">
-        <PaltanWorld/>
-      </div>
-      <div className="news">
-        <News/>
-      </div>
-
-      <div className="partners">
-        <Partners/>
-      </div>
+      <div className="bodyy"><Navbar /></div>
+      <div className="part2"><Part2 /></div>
+      <div className="paltanworld"><PaltanWorld/></div>
+      <div className="news"><News/></div>
+      <div className="partners"><Partners/></div>
+      
 
       <Routes>
         <Route path="/" />
