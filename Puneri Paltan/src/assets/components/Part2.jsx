@@ -50,9 +50,14 @@ const Part2 = () => {
             <div className="buyticket"></div>
           </div>
           <button className='buyticketbtn'>Buy Tickets</button>
-          <div className="subcontain2"></div>
+          <div className="subcontain2">
+            <div className="tickets">
+              <img src="../public/tickets.png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
+     
 
       {/* <button onClick={}>Click</button> */}
     </>

@@ -5,9 +5,11 @@ import Navbar from './assets/components/Navbar'
 import Players from './assets/pages/Players/players'
 import Standings from './assets/pages/Standings/Standings';
 import Fixtures from './assets/pages/Fixtures/Fixtures';
-import PaltanWorld from './assets/pages/Paltan World/PaltanWorld';
+import PaltanWorld from '../src/assets/components/PaltanWorld';
 import Tickets from './assets/pages/Tickets/Tickets';
 import Part2 from './assets/components/Part2';
+import News from './assets/components/News';
+import Partners from './assets/components/Partners';
 
 function App() {
   
@@ -19,6 +21,16 @@ function App() {
       </div>
       <div className="part2">
         <Part2 />
+      </div>
+      <div className="paltanworld">
+        <PaltanWorld/>
+      </div>
+      <div className="news">
+        <News/>
+      </div>
+
+      <div className="partners">
+        <Partners/>
       </div>
 
       <Routes>

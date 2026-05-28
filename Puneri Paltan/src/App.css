@@ -195,10 +195,171 @@ nav{
 .subcontain2{
     width:50%;
     height:100%;
-    
+    background-color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center; 
 }
+.tickets{
+    height:80%;
+    width:80%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+    img{
+        scale:0.85
+    }
+}
+
 /* -------------------------------------------------- */
 
+.paltanworld{
+    width:100%;
+    height:70vh;
+    background-image:url(../public/paltan-world-homepage_s12.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    justify-content: right;
+    align-items:center;
+}
+.pp{
+    height:100%;
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color:transparent;
+    
+}
+#paltanorange{
+    color:#ff7500;
+    font-size:72px;
+    font-weight:700;
+}
+#worldwhite{
+    color:white;
+    font-size:84px;
+    font-weight:700;
+}
+#paltanworldenter{
+     width:172px;
+    height:42px;
+    background-color:#ff7500;
+    transform:skew(-15deg);
+    color:white;
+    font-size:20px;
+    letter-spacing:2px;
+    border-top:white 2px solid;
+    border-bottom:white 2px solid;
+    border-right:white 2px solid;
+    border-left:transparent;
+} 
+/* -------------------------NEWS------------------------- */
+
+.news{
+    width:100%;
+    height:100vh;
+    background-image:url(../public/news-bg.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    position:relative;
+}
+.newsbox{
+    width:70%;
+    height:70%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-image:url(../public/news-banner.jpg);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    position:relative;
+}
+#puneripaltan{
+    color:#ff7500;
+    font-size:72px;
+    font-weight:600;
+}
+#inthenews{
+    color:white;
+    font-size:64px;
+    font-weight:700;
+}
+#newsenterbtn{
+       width:172px;
+    height:42px;
+    background-color:#ff7500;
+    transform:skew(-15deg);
+    color:white;
+    font-size:20px;
+    letter-spacing:2px;
+    border-top:white 2px solid;
+    border-bottom:white 2px solid;
+    border-right:white 2px solid;
+    border-left:transparent;  
+    position:absolute;
+    bottom:-20px;
+}
+.newsletter{
+    color:white;
+    width:90%;
+    height:100px;
+    background-color:#ff7500;
+    transform:skew(-15deg);
+    position:absolute;
+    bottom:-40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:24px;
+}
+#newsletterinp{
+    color:black;
+    width:512px;
+    height:42px;
+    background-color:white;
+    transform:skew(-10deg);
+    border:transparent;
+    outline:transparent;
+    padding:0px 20px;
+
+}
+#newsletterinp::placeholder{
+    font-size:18px;
+}
+#subsnewsletter{
+    font-size:32px;
+    font-weight: 600;
+}
+
+#gobtn{
+    width:64px;
+    height:42px;
+    background-color:#ff7500;
+    transform:skew(-10deg) ;
+    color:white;
+    font-size:16px;
+    letter-spacing:2px;
+   border:white 2px solid;
+    
+}
+/* -------------------------NEWS------------------------- */
+
+.partners{
+    width:100%;
+    height:100vh;
+}
 
 
 
