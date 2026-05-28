@@ -18,6 +18,18 @@ const Partners = () => {
       <p>Associate Partner</p>
     </div>
   </div>
+  <div className="copartner">
+    <img src="../public/paras.webp" alt="" />
+    <p>Co - Partner</p>
+  </div>
+  <div className="wellnesspartner">
+    <img src="../public/better.webp" alt="" />
+    <p>Wellness Partner</p>
+  </div>
+  <div className="kitpartner">
+    <img src="../public/shivnaresh-logo.webp" alt="" />
+    <p>Kit Partner</p>
+  </div>
   </>
   )
 }

@@ -10,6 +10,7 @@ import Tickets from './assets/pages/Tickets/Tickets';
 import Part2 from './assets/components/Part2';
 import News from './assets/components/News';
 import Partners from './assets/components/Partners';
+import Footer from './assets/components/Footer';
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
       <div className="paltanworld"><PaltanWorld/></div>
       <div className="news"><News/></div>
       <div className="partners"><Partners/></div>
+      <div className="footer"><Footer/></div>
       
 
       <Routes>
