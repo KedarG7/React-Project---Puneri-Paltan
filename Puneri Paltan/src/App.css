@@ -476,25 +476,48 @@ nav{
 .playertogether{
     width:100%;
     height:80vh;
-    background-color:white;
+    background-color:transparent;
     display:flex;
 }
 .playertitle{
     width:50%;
     height:80vh;
-    /* background-color:#ff7500; */
     display:flex;
     justify-content:center;
     align-items:center;
-    
-    img{
-        scale:0.8;
-    }
+  
 }
 .playercome{
     width: 50%;
     height:80vh;
-    background-color:blue;
+    /* background-color:blue; */
+    /* background-image:url(../public/players_page_banner_desktop_S12.png); */
+
+    position:relative;
+
+    img{
+        position:absolute;
+        bottom:5vh;
+    }
+    
+}
+.logoimage1{
+    width:60%;
+    height:60%;
+    /* background-color:rebeccapurple; */
+    background-image:url(../public/banner-title.png);
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    p{
+        font-size:64px;
+        font-weight:700;
+        color:white;
+    }
 }
 
 
