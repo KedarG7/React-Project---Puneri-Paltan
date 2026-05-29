@@ -466,6 +466,36 @@ nav{
     
 }
 
+/* ---------------------PLAYERS PAGE----------------------------- */
+.playerhome{
+    width:100%;
+    height:95vh;
+    /* background-color:red; */
+    background-image:url(../public/player-banner-bg_S11.jpg)
+}
+.playertogether{
+    width:100%;
+    height:80vh;
+    background-color:white;
+    display:flex;
+}
+.playertitle{
+    width:50%;
+    height:80vh;
+    /* background-color:#ff7500; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    img{
+        scale:0.8;
+    }
+}
+.playercome{
+    width: 50%;
+    height:80vh;
+    background-color:blue;
+}
 
 
 
