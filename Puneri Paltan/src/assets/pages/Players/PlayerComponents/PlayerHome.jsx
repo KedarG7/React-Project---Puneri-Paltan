@@ -8,10 +8,13 @@ const PlayerHome = () => {
         <Navbar />
         <div className="playertogether">
           <div className="playertitle">
-            <img src="public/banner-title.png" alt="" />
-            <p>PLAYERS</p>
+            <div className="logoimage1">
+              <p>PLAYERS</p>
+            </div>
           </div>
-          <div className="playercome"></div>
+          <div className="playercome">
+            <img src="public/players_page_banner_desktop_S12.png" alt="" />
+          </div>
         </div>
       </div>
     </>
